@@ -22,4 +22,4 @@
 | --- | --- | --- | --- |
 | 1 | OSDI | Apr. 26, 2018 | Oct. 2018 |
 | 1 | EuroSYS | Nov. 4, 2019 | Apr. 2020 |
-| 1 | Usenix ATC | Jan. 10th, 2019 | July 2019 |
+| 1 | Usenix ATC | Jan. 15th, 2020 | July 2020 |

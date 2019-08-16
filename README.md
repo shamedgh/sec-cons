@@ -10,7 +10,7 @@
 | 2 | EuroS&P | Oct. 15, 2018, Nov. 13, 2018 | Jun. 2019 |
 | 2 | RAID | April 2nd, 2019 | Sep. 2019 |
 | 2 | ACSAC | June 15th, 2019 | Dec. 2019 |
-| 2 | AsiaCCS | Jan. 28th, 2019 | July 2019 |
+| 2 | AsiaCCS | Dec. 10th, 2019 | June 2020 |
 | 2 | IMC | May 13th, 2019 | Oct. 2019 |
 | 2 | PETS | Feb. 28th, 2019 | July 2019 |
 | 2 | DSN | Dec. 7th, 2018 | June 2019 |

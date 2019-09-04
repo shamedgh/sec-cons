@@ -7,7 +7,7 @@
 | 1 | CCS | June 15th 2019 | Nov. 2019 |
 | 1 | Usenix | Aug. 15th 2019, Oct. 15th 2019, Feb. 15th 2020 | August 2020 |
 | 1 | NDSS | June 14th and Sep. 13th 2019 | Feb. 2020 |
-| 2 | EuroS&P | Oct. 15, 2018, Nov. 13, 2018 | Jun. 2019 |
+| 2 | EuroS&P | Oct. 22, 2019, Nov. 20, 2019 | Jun. 2019 |
 | 2 | RAID | April 2nd, 2019 | Sep. 2019 |
 | 2 | ACSAC | June 15th, 2019 | Dec. 2019 |
 | 2 | AsiaCCS | Dec. 10th, 2019 | June 2020 |

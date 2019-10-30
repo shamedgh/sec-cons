@@ -4,7 +4,7 @@
 | Rank | Conf. Name | Deadline(s) | Conf. Date |
 | --- | --- | --- | --- |
 | 1 | IEEE S&P | Every Month till Jan. 1st 2020 | May 2020 |
-| ~1 | CCS | June 15th 2019 | Nov. 2019~ |
+| ~1~ | CCS | June 15th 2019 | Nov. 2019~ |
 | 1 | Usenix | Aug. 15th 2019, Nov. 15th 2019, Feb. 15th 2020 | August 2020 |
 | 1 | NDSS | June 14th and Sep. 13th 2019 | Feb. 2020 |
 | 2 | EuroS&P | Oct. 22, 2019, Nov. 20, 2019 | Jun. 2020 |

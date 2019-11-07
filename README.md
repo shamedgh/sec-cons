@@ -13,7 +13,7 @@
 | 2 | AsiaCCS | Dec. 10th, 2019 | June 2020 |
 | 2 | IMC | ~May 13th, 2019~ | Oct. 2019 |
 | 2 | PETS | Feb. 28th, 2019 | July 2019 |
-| 2 | DSN | Dec. 7th, 2018 | June 2019 |
+| 2 | DSN | Abs. Dec. 3rd, 2019, Sub. Dec. 13th, 2019 | June 2020 |
 | 2 | ESORICS | Apr. 22nd, 2019 | Sep. 2019 |
 | 3 | DIMVA | Feb. 22nd 2019 | June 2019 |
 

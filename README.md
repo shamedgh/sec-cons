@@ -10,10 +10,10 @@
 | 2 | EuroS&P | ~Oct. 22, 2019, Nov. 20, 2019~ | Jun. 2020 |
 | 2 | RAID | April 2nd, 2019 | Sep. 2019 |
 | 2 | ACSAC | ~June 15th, 2019~ | Dec. 2019 |
-| 2 | AsiaCCS | Dec. 10th, 2019 | June 2020 |
+| 2 | AsiaCCS | ~Dec. 10th, 2019~ | June 2020 |
 | 2 | IMC | ~May 13th, 2019~ | Oct. 2019 |
 | 2 | PETS | Feb. 28th, 2019 | July 2019 |
-| 2 | DSN | Abs. Dec. 3rd, 2019, Sub. Dec. 13th, 2019 | June 2020 |
+| 2 | DSN | ~Abs. Dec. 3rd, 2019, Sub. Dec. 13th, 2019~ | June 2020 |
 | 2 | ESORICS | Apr. 22nd, 2019 | Sep. 2019 |
 | 3 | DIMVA | Feb. 16 2020 | June 2020 |
 

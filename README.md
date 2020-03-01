@@ -15,7 +15,7 @@
 | 2 | PETS | Feb. 28th, 2019 | July 2019 |
 | 2 | DSN | ~Abs. Dec. 3rd, 2019, Sub. Dec. 13th, 2019~ | June 2020 |
 | 2 | ESORICS | Apr. 22nd, 2019 | Sep. 2019 |
-| 3 | DIMVA | Feb. 16 2020 | June 2020 |
+| 3 | DIMVA | ~Feb. 19 2020~ | June 2020 |
 
 # System Conferences:
 | Rank | Conf. Name | Deadline(s) | Conf. Date |

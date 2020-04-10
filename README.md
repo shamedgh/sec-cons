@@ -8,7 +8,7 @@
 | 1 | Usenix | ~Aug. 15th 2019~, ~Nov. 15th 2019~, ~Feb. 15th 2020~ | August 2020 |
 | 1 | NDSS | ~June 14th and Sep. 13th 2019~ | Feb. 2020 |
 | 2 | EuroS&P | ~Oct. 22, 2019, Nov. 20, 2019~ | Jun. 2020 |
-| 2 | RAID | April 7th, 2020 | Oct. 2020 |
+| 2 | RAID | ~April 7th, 2020~ | Oct. 2020 |
 | 2 | ACSAC | June 12th, 2020 | Dec. 2020 |
 | 2 | AsiaCCS | ~Dec. 10th, 2019~ | June 2020 |
 | 2 | IMC | ~May 13th, 2019~ | Oct. 2019 |

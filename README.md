@@ -5,7 +5,7 @@
 | --- | --- | --- | --- |
 | 1 | IEEE S&P | ~Mar. 5,~ Jun. 4, Sep. 3, Dec. 3 (2020) | May 2021 |
 | 1 | CCS | ~Jan. 20th, 2020~, May 4th 2020 | Nov. 2020 |
-| 1 | Usenix | ~Aug. 15th 2019~, ~Nov. 15th 2019~, ~Feb. 15th 2020~ | August 2020 |
+| 1 | Usenix | Jun. 11th 2020, Oct. 15th 2020, Feb. 4th 2021 | August 2021 |
 | 1 | NDSS | Apr. 30th and Jul. 17th 2020 | Feb. 2021 |
 | 2 | EuroS&P | ~Oct. 22, 2019, Nov. 20, 2019~ | Jun. 2020 |
 | 2 | RAID | ~April 7th, 2020~ | Oct. 2020 |

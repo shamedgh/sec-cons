@@ -7,7 +7,7 @@
 | 1 | CCS | ~Jan. 20th, 2020~, ~May 4th 2020~ | Nov. 2020 |
 | 1 | Usenix | ~Jun. 18th 2020~, Oct. 15th 2020, Feb. 4th 2021 | August 2021 |
 | 1 | NDSS | ~May. 22nd~ and ~Jul. 31st 2020~ | Feb. 2021 |
-| 2 | EuroS&P | Dec. 10, 2020 | Jun. 2021 |
+| 2 | EuroS&P | Nov. 5th, 2020 | Sep. 2021 |
 | 2 | RAID | ~April 7th, 2020~ | Oct. 2020 |
 | 2 | ACSAC | ~June 15th, 2020~ | Dec. 2020 |
 | 2 | AsiaCCS | ~Aug. 21st~ and Dec. 11th 2020 | June 2021 |

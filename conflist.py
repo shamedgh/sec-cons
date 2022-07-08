@@ -9,18 +9,22 @@ import csv
 from datetime import datetime
 
 class ConfRecord:
-    def __init__(self, researchArea, confName, deadlineList, year, location,
+    def __init__(self, researchArea, confName, deadlineList, 
+			acceptanceList,
+			year, location,
             confDate):
         self.researchArea = researchArea
         self.confName = confName
         self.deadlineList = deadlineList
+		self.acceptanceList = acceptanceList
         self.year = year
         self.location = location
         self.confDate = confDate
     def __repr__(self):
         s = " "
         s = s.join([self.researchArea, self.confName,
-                    ' '.join(self.deadlineList), self.year,
+                    ' '.join(self.deadlineList), 
+					' '.join(self.acceptanceList), self.year,
                     self.location])
         s = s + "\n"
         return s
@@ -33,6 +37,7 @@ def collectRecords(file):
             researchArea = row['ResearchArea']
             confName = row['ConfName']
             deadlines = row['DeadlineList'][1:-1].split(';')
+            acceptances = row['AcceptanceList'][1:-1].split(';')
             year = row['Year']
             location = row['Location']
             confDate = row['ConfDate']

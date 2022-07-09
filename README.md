@@ -18,4 +18,3 @@
 | Conference | Deadline | Acceptance Notification | Conference Date | Location |
 | --- | --- | --- | --- | --- |
 | SOSP | ~04-30-2021~,  | ~08-09-2021~,  | ~08-26-2021~,  | Virtual|
-| ICSE | ~09-01-2021~,  | ~12-09-2021~,  | ~05-14-2021~,  | Moon|

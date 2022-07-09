@@ -88,9 +88,9 @@ def parseDateToStr(dates):
     return dateStr
 
 def generateMarkdown(upcoming, past):
-    print('# Upcoming\n')
-    print ('| Research Area | Conference | Deadline | Acceptance Notification | Conference Date | Location |\n')
-    print ('| --- | --- | --- | --- | --- | --- | ')
+    print('# Upcoming:')
+    print ('| Research Area | Conference | Deadline | Acceptance Notification | Conference Date | Location |')
+    print ('| --- | --- | --- | --- | --- | --- |')
     for conf in upcoming:
         print('| ' + conf.researchArea + ' | ' + conf.confName + ' | ' +
                 parseDateToStr(conf.deadlineList) + ' | ' +
@@ -99,8 +99,8 @@ def generateMarkdown(upcoming, past):
         print()
 
     print('#Previous')
-    print ('| Research Area | Conference | Deadline | Acceptance Notification | Conference Date | Location |\n')
-    print ('| --- | --- | --- | --- | --- | --- | ')
+    print ('| Research Area | Conference | Deadline | Acceptance Notification | Conference Date | Location |')
+    print ('| --- | --- | --- | --- | --- | --- |')
     for conf in past:
         print('|' + conf.researchArea + ' | ' + conf.confName + ' | ' +
                 parseDateToStr(conf.deadlineList) + ' | ' +

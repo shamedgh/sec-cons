@@ -88,20 +88,22 @@ def parseDateToStr(dates):
     return dateStr
 
 def generateMarkdown(upcoming, past):
-    print('## Upcoming:')
-    print ('| Conference | Deadline | Acceptance Notification | Conference Date | Location |')
-    print ('| --- | --- | --- | --- | --- |')
-    for conf in upcoming:
-        print('| ' + conf.confName + ' | ' + parseDateToStr(conf.deadlineList) + ' | ' + parseDateToStr(conf.acceptanceList) + ' | ' + parseDateToStr([conf.confDate]) + ' | ' + conf.location + ' | ')
+	print('### Nearest:')
+	p = sorted(upcoming, key = lambda conf: max(conf.deadlineList))
+	print (p)
+	print('### Upcoming:')
+	print ('| Conference | Deadline | Acceptance Notification | Conference Date | Location |')
+	print ('| --- | --- | --- | --- | --- |')
+	for conf in upcoming:
+		print('| ' + conf.confName + ' | ' + parseDateToStr(conf.deadlineList) + ' | ' + parseDateToStr(conf.acceptanceList) + ' | ' + parseDateToStr([conf.confDate]) + ' | ' + conf.location + ' | ')
 
-    print()
-    print('## Previous:')
-    print ('| Conference | Deadline | Acceptance Notification | Conference Date | Location |')
-    print ('| --- | --- | --- | --- | --- |')
-    for conf in past:
-        print('| ' + conf.confName + ' | ' + parseDateToStr(conf.deadlineList) + ' | ' + parseDateToStr(conf.acceptanceList) + ' | ' + parseDateToStr([conf.confDate]) + ' | ' + conf.location + '|')
-
+	print()
+	print('### Previous:')
+	print ('| Conference | Deadline | Acceptance Notification | Conference Date | Location |')
+	print ('| --- | --- | --- | --- | --- |')
+	for conf in past:
+		print('| ' + conf.confName + ' | ' + parseDateToStr(conf.deadlineList) + ' | ' + parseDateToStr(conf.acceptanceList) + ' | ' + parseDateToStr([conf.confDate]) + ' | ' + conf.location + '|')
 
 if __name__ == "__main__":
-    upcoming, past = collectRecords('conferences.csv')
-    generateMarkdown(upcoming, past)
+	upcoming, past = collectRecords('conferences.csv')
+	generateMarkdown(upcoming, past)

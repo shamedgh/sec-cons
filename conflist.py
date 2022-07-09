@@ -64,7 +64,7 @@ def collectRecords(file):
     upcoming = []
     past = []
     for c in confList:
-        if c.confDate >= datetime.now():
+        if max(c.deadlineList) >= datetime.now():
             upcoming.append(c)
         else:
             past.append(c)
@@ -89,7 +89,7 @@ def parseDateToStr(dates):
 
 def generateMarkdown(upcoming, past):
 	print('### Nearest:')
-	p = sorted(upcoming, key = lambda conf: conf.confDate)
+	p = sorted(upcoming, key = lambda conf: max(conf.deadlineList))
 	print (p)
 	print('### Upcoming:')
 	print ('| Conference | Deadline | Acceptance Notification | Conference Date | Location |')

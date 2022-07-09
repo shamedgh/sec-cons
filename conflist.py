@@ -25,6 +25,7 @@ class ConfRecord:
         s = " "
         s = s.join([self.confName,
 					str(parseDateToStr(self.deadlineList)),
+					str(parseDateToStr(self.acceptanceList)),
                     self.location])
         s = s + "\n"
         return s

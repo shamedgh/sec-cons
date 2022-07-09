@@ -92,20 +92,14 @@ def generateMarkdown(upcoming, past):
     print ('| Research Area | Conference | Deadline | Acceptance Notification | Conference Date | Location |')
     print ('| --- | --- | --- | --- | --- | --- |')
     for conf in upcoming:
-        print('| ' + conf.researchArea + ' | ' + conf.confName + ' | ' +
-                parseDateToStr(conf.deadlineList) + ' | ' +
-                parseDateToStr(conf.acceptanceList) + ' | ' +
-                str(conf.confDate) + ' | ' + conf.location + ' | ')
+        print('| ' + conf.researchArea + ' | ' + conf.confName + ' | ' + parseDateToStr(conf.deadlineList) + ' | ' + parseDateToStr(conf.acceptanceList) + ' | ' + conf.confDate.strftime('%m-%d-%Y') + ' | ' + conf.location + ' | ')
 
     print()
     print('#Previous')
     print ('| Research Area | Conference | Deadline | Acceptance Notification | Conference Date | Location |')
     print ('| --- | --- | --- | --- | --- | --- |')
     for conf in past:
-        print('|' + conf.researchArea + ' | ' + conf.confName + ' | ' +
-                parseDateToStr(conf.deadlineList) + ' | ' +
-                parseDateToStr(conf.acceptanceList) + ' | ' + str(conf.confDate) + ' | ' + conf.location
-                + '|')
+        print('|' + conf.researchArea + ' | ' + conf.confName + ' | ' + parseDateToStr(conf.deadlineList) + ' | ' + parseDateToStr(conf.acceptanceList) + ' | ' + conf.confDate.strftime('%m-%d-%Y')+ ' | ' + conf.location + '|')
 
 
 if __name__ == "__main__":

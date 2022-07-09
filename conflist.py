@@ -23,8 +23,8 @@ class ConfRecord:
         self.confDate = confDate
     def __repr__(self):
         s = " "
-        s = s.join([self.researchArea, self.confName,
-					str(self.year),
+        s = s.join([self.confName,
+					str(min(self.deadlineList)),
                     self.location])
         s = s + "\n"
         return s

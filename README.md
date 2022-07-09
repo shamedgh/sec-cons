@@ -2,12 +2,12 @@
 | Conference | Deadline | Acceptance Notification | Conference Date | Location |
 | --- | --- | --- | --- | --- |
 | NDSS | ~May-13-2022~, Jul-29-2022,  | Jul-22-2022, Dec-05-2022,  | Feb-01-2023,  | SanDiego (USA) | 
+| Usenix SEC | ~Jun-07-2022~, Aug-11-2022, Feb-07-2023,  | Sep-02-2022, Jan-27-2023, Jun-08-2023,  | Aug-09-2023,  | Anaheim (USA) | 
+| Oakland | ~Apr-01-2022~, Aug-19-2022, Dec-02-2022,  | ~Jun-24-2022~, Nov-09-2022, Mar-10-2023,  | Jun-22-2023,  | SanFransisco (USA) | 
 | ICSE | Sep-01-2022,  | Dec-09-2022,  | May-14-2023,  | Melbourne | 
 | Eurosys | ~May-11-2022~, Oct-12-2022,  | Aug-10-2022, Jan-18-2023,  | May-09-2023,  | Rome | 
 | PLDI | Nov-10-2022,  | Feb-24-2023,  | Jun-19-2023,  | Orlando (USA) | 
-| Oakland | ~Apr-01-2022~, Aug-19-2022, Dec-02-2022,  | ~Jun-24-2022~, Nov-09-2022, Mar-10-2023,  | Jun-22-2023,  | SanFransisco (USA) | 
 | FSE | Jan-23-2023,  | May-04-2023,  | Nov-17-2023,  | SanFrancisco (USA) | 
-| Usenix SEC | ~Jun-07-2022~, Aug-11-2022, Feb-07-2023,  | Sep-02-2022, Jan-27-2023, Jun-08-2023,  | Aug-09-2023,  | Anaheim (USA) | 
 
 ### Previous:
 | Conference | Deadline | Acceptance Notification | Conference Date | Location |

@@ -89,7 +89,7 @@ def parseDateToStr(dates):
     return dateStr
 
 def generateMarkdown(upcoming, past):
-	upcoming = sorted(upcoming, key = lambda conf: max([d for d in conf.deadlineList if d > datetime.now()]))
+	upcoming = sorted(upcoming, key = lambda conf: min([d for d in conf.deadlineList if d > datetime.now()]))
 	print('### Upcoming:')
 	print ('| Conference | Deadline | Acceptance Notification | Conference Date | Location |')
 	print ('| --- | --- | --- | --- | --- |')

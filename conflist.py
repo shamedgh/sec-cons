@@ -88,19 +88,20 @@ def parseDateToStr(dates):
     return dateStr
 
 def generateMarkdown(upcoming, past):
-    print('# Upcoming')
-    print ('Research Area | Conference | Deadline | Acceptance Notification  | Conference Date | Location')
+    print('# Upcoming\n')
+    print ('Research Area | Conference | Deadline | Acceptance Notification  | Conference Date | Location\n')
     for conf in upcoming:
         print(conf.researchArea + ' | ' + conf.confName + ' | ' +
                 parseDateToStr(conf.deadlineList) + ' | ' +
                 parseDateToStr(conf.acceptanceList) + ' | ' + str(conf.confDate) + ' | ' + conf.location)
+        print()
     print('#Previous')
-    print ('Research Area | Conference | Deadline | Acceptance Notification  | Conference Date | Location')
+    print ('Research Area | Conference | Deadline | Acceptance Notification  | Conference Date | Location\n')
     for conf in past:
         print(conf.researchArea + ' | ' + conf.confName + ' | ' +
                 parseDateToStr(conf.deadlineList) + ' | ' +
                 parseDateToStr(conf.acceptanceList) + ' | ' + str(conf.confDate) + ' | ' + conf.location)
-
+        print()
 
 
 if __name__ == "__main__":

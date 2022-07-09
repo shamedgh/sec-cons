@@ -32,12 +32,17 @@ class ConfRecord:
 
 def parseDates(dateStrList):
     dates = [datetime.strptime(d, '%m-%d-%Y') for d in dateStrList]
-    """
-    dates = []
-    for dateStr in dateStrList:
-        dates.append(datetime.strptime(dateStr, '%m-%d-%Y'))
-    """
     return dates
+
+def parseDateToStr(dates):
+    dateStr = ""
+    for date in dates:
+        if date < datetime.now():
+            dateStr = dateStr + '~'+ date.strftime('%b-%d-%Y')+'~, '
+        else:
+            dateStr = dateStr + date.strftime('%b-%d-%Y') + ', '
+    return dateStr
+
 
 def collectRecords(file):
     confList = []
@@ -68,15 +73,6 @@ def collectRecords(file):
     upcoming = [c for c in confList if max(c.deadlineList) >= datetime.now()]
     past = [c for c in confList if max(c.deadlineList) < datetime.now()]
     return (upcoming, past)
-
-def parseDateToStr(dates):
-    dateStr = ""
-    for date in dates:
-        if date < datetime.now():
-            dateStr = dateStr + '~'+ date.strftime('%b-%d-%Y')+'~, '
-        else:
-            dateStr = dateStr + date.strftime('%b-%d-%Y') + ', '
-    return dateStr
 
 def generateMarkdown(upcoming, past):
 	upcoming = sorted(upcoming, key = lambda conf: min([d for d in conf.deadlineList if d > datetime.now()]))

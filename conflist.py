@@ -96,8 +96,8 @@ def generateMarkdown(upcoming, past):
                 parseDateToStr(conf.deadlineList) + ' | ' +
                 parseDateToStr(conf.acceptanceList) + ' | ' +
                 str(conf.confDate) + ' | ' + conf.location + ' | ')
-        print()
 
+    print()
     print('#Previous')
     print ('| Research Area | Conference | Deadline | Acceptance Notification | Conference Date | Location |')
     print ('| --- | --- | --- | --- | --- | --- |')
@@ -106,7 +106,6 @@ def generateMarkdown(upcoming, past):
                 parseDateToStr(conf.deadlineList) + ' | ' +
                 parseDateToStr(conf.acceptanceList) + ' | ' + str(conf.confDate) + ' | ' + conf.location
                 + '|')
-        print()
 
 
 if __name__ == "__main__":

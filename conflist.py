@@ -24,7 +24,7 @@ class ConfRecord:
     def __repr__(self):
         s = " "
         s = s.join([self.confName,
-					str(min(self.deadlineList)),
+					str(parseDateToStr([min(self.deadlineList)])),
                     self.location])
         s = s + "\n"
         return s

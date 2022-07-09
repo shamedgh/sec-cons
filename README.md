@@ -1,11 +1,11 @@
 ### Nearest:
-[NDSS 2022-05-13 00:00:00 SanDiego (USA)
-, ICSE 2022-09-01 00:00:00 Melbourne
-, Eurosys 2022-05-11 00:00:00 Rome
-, PLDI 2022-11-10 00:00:00 Orlando (USA)
-, Oakland 2022-04-01 00:00:00 SanFransisco (USA)
-, FSE 2023-01-23 00:00:00 SanFrancisco (USA)
-, Usenix SEC 2022-06-07 00:00:00 Anaheim (USA)
+[NDSS ~May-13-2022~,  SanDiego (USA)
+, ICSE Sep-01-2022,  Melbourne
+, Eurosys ~May-11-2022~,  Rome
+, PLDI Nov-10-2022,  Orlando (USA)
+, Oakland ~Apr-01-2022~,  SanFransisco (USA)
+, FSE Jan-23-2023,  SanFrancisco (USA)
+, Usenix SEC ~Jun-07-2022~,  Anaheim (USA)
 ]
 ### Upcoming:
 | Conference | Deadline | Acceptance Notification | Conference Date | Location |

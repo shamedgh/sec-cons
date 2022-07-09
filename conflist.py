@@ -82,9 +82,9 @@ def parseDateToStr(dates):
     dateStr = ""
     for date in dates:
         if date < datetime.now():
-            dateStr = dateStr + '~'+ date.strftime('%m-%d-%Y')+'~ <br/>'
+            dateStr = dateStr + '~'+ date.strftime('%m-%d-%Y')+'~<br/>'
         else:
-            dateStr = dateStr + date.strftime('%m-%d-%Y') + ' <br/>'
+            dateStr = dateStr + date.strftime('%m-%d-%Y') + '<br/>'
     return dateStr
 
 def generateMarkdown(upcoming, past):

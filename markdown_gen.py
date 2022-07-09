@@ -31,9 +31,12 @@ class ConfRecord:
         return s
 
 def parseDates(dateStrList):
+    dates = [datetime.strptime(d, '%m-%d-%Y') for d in dateStrList]
+    """
     dates = []
     for dateStr in dateStrList:
         dates.append(datetime.strptime(dateStr, '%m-%d-%Y'))
+    """
     return dates
 
 def collectRecords(file):
@@ -64,22 +67,7 @@ def collectRecords(file):
             confList.append(conf)
     upcoming = [c for c in confList if max(c.deadlineList) >= datetime.now()]
     past = [c for c in confList if max(c.deadlineList) < datetime.now()]
-    """
-    for c in confList:
-        if max(c.deadlineList) >= datetime.now():
-            upcoming.append(c)
-        else:
-            past.append(c)
-    """
     return (upcoming, past)
-    """
-    confMap = {}
-    for conf in confList:
-        if conf.confName not in confMap:
-            confMap[conf.confName] = []
-        confMap[conf.confName].append(conf)
-    return confMap
-    """
 
 def parseDateToStr(dates):
     dateStr = ""

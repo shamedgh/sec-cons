@@ -43,7 +43,6 @@ def parseDateToStr(dates):
             dateStr = dateStr + date.strftime('%b-%d-%Y') + ', '
     return dateStr
 
-
 def collectRecords(file):
     confList = []
     with open(file) as csvfile:

@@ -62,13 +62,15 @@ def collectRecords(file):
                     location,
                     confDate)
             confList.append(conf)
-    upcoming = []
-    past = []
+    upcoming = [c for c in confList if max(c.deadlineList) >= datetime.now()]
+    past = [c for c in confList if max(c.deadlineList) < datetime.now()]
+    """
     for c in confList:
         if max(c.deadlineList) >= datetime.now():
             upcoming.append(c)
         else:
             past.append(c)
+    """
     return (upcoming, past)
     """
     confMap = {}

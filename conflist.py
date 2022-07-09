@@ -82,20 +82,22 @@ def parseDateToStr(dates):
     dateStr = ""
     for date in dates:
         if date < datetime.now():
-            dateStr = dateStr + '~'+ date.strftime('%m-%d-%Y')
+            dateStr = dateStr + '~'+ date.strftime('%m-%d-%Y')+'~ '
         else:
-            dateStr = dateStr + date.strftime('%m-%d-%Y')
+            dateStr = dateStr + date.strftime('%m-%d-%Y') + ' '
     return dateStr
 
 def generateMarkdown(upcoming, past):
     print('# Upcoming\n')
     print ('Research Area | Conference | Deadline | Acceptance Notification  | Conference Date | Location\n')
+    print ('---- | ---- | ---- | --- | --- | ---')
     for conf in upcoming:
         print(conf.researchArea + ' | ' + conf.confName + ' | ' +
                 parseDateToStr(conf.deadlineList) + ' | ' +
                 parseDateToStr(conf.acceptanceList) + ' | ' + str(conf.confDate) + ' | ' + conf.location)
         print()
     print('#Previous')
+    print ('---- | ---- | ---- | --- | --- | ---')
     print ('Research Area | Conference | Deadline | Acceptance Notification  | Conference Date | Location\n')
     for conf in past:
         print(conf.researchArea + ' | ' + conf.confName + ' | ' +
